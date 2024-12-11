@@ -31,6 +31,7 @@ beg.addEventListener('dblclick', function(){
     console.log ("double clicked");
     food.style.display = "block";
     beg.style.display = "none";
+    pizza.style.display = "none";
     text.innerHTML = "By going in and asking for food, the owner gave you a sandwhich, chips and water. You survive another day.";
 });
 pizza.addEventListener('dblclick', function(){
