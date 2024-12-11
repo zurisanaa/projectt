@@ -1,1 +1,7 @@
-img {width:100px}
+img {width:300px}
+.whole{
+    margin: 0 auto;
+    padding: 5px;
+    width: 300px;
+    background-color: blanchedalmond;
+}
