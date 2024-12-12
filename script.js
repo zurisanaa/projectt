@@ -34,7 +34,7 @@ beg.addEventListener('dblclick', function(){
     pizza.style.display = "none";
     text.innerHTML = "By going in and asking for food, the owner gave you a sandwhich, chips and water. You survive another day.";
 });
-pizza.addEventListener('dblclick', function(){
+pizza.addEventListener('mouseenter', function(){
     console.log ("emoji clicked");
     walkAway.style.display = "block";
     pizza.style.display = "none";
@@ -57,7 +57,7 @@ thinking.addEventListener('dblclick', function(){
     bread.style.display = "none";
     text.innerHTML = "By going in and robbing the store, you get caught on camera. Because of this the police arrest you and you spend the next 12 years in prison.";
 });
-bread.addEventListener('dblclick', function(){
+bread.addEventListener('mouseenter', function(){
     console.log ("emoji clicked");
     food.style.display = "block";
     thinking.style.display = "none";
